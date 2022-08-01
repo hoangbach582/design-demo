@@ -1,0 +1,49 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+}
+
+body {
+    box-sizing: inherit;
+    font-family:  Helvetica, sans-serif;
+}
+
+.infor {
+    width: 1180px;
+    height: 230px;
+    margin: 60px auto;
+    background-image: url(https://toigingiuvedep.vn/wp-content/uploads/2021/12/anh-nen-may-tinh-anime-4k-trong-chieu-hoang-hon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.infor > ul{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.infor ul li {
+    color: #ffffff;
+    list-style: none;
+    text-align: center;
+    margin: auto 0;
+}
+
+.infor ul > li > svg {
+    width: 45px;
+    height: 45px;
+}
+
+.infor-numbers {
+    font-size: 40px;
+}
+
+.infor-general {
+    font-size: 18px;
+}
